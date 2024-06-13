@@ -1,0 +1,141 @@
+body{
+    overflow-x: hidden;
+ }
+ h1, h2, h3, h4, h5, h6, a, p, span{
+    font-family: "Taviraj", serif;
+ }
+ /* Nav section style */
+ .collapse{
+    visibility: visible !important;
+}
+button.navbar-toggler {
+    background: white;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: #d7b65d !important;
+}
+.dropdown{
+    position: absolute;
+    background-color: #192026;
+    width: 250px;
+    display: none;
+
+}
+.dropdown_sub{
+    position: absolute;
+    background-color: #192026;
+    width: 250px;
+    left: 250px;
+    top: 0px;
+    display: none;
+}
+.nav-item:hover .dropdown{
+    display: block;
+}
+.dropdown_li{
+    padding: 10px;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+.dropdown_li:last-child{
+    border: none;
+}
+.dropdown_li:first-child:hover .dropdown_sub{
+    display: block;
+}
+.dropdown_li > a{
+    color: white;
+    font-size: 12px;
+}
+.dropdown_li:hover > a{
+    color: #d7b65d;
+    transition-duration: 0.3s;
+}
+
+ /* banner section style*/
+ .banner{
+    background: url('img/bg.png') no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+ }
+ .banner_content h2,h6{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+ }
+ .btn_reservation{
+    background-color: #d7b65d;
+    padding: 10px;
+    width: 200px;
+ }
+ .btn_reservation:hover{
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+ }
+
+
+/* service section style */
+.heading-underline {
+    position: relative;
+    display: inline-block;
+}
+
+.heading-underline::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+    width: 15%;
+    height: 2px;
+    background-color: #D7B65D;
+}
+ .service_section{
+    margin: 10px 30px;
+ }
+ .service_section > .row > .col-md-4 > .card:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+ }
+ .service_section > .row > .col-md-4 > .card{
+    background-color: #192026;
+    border-radius: 0 !important;
+ }
+
+ .service_section > .row > .col-md-4 > .card > img {
+    opacity: 0.6;
+ }
+
+ /* info section style */
+/* Footer style */
+.top_nav_contact > a > i{
+    background-color: #d7b65d;
+    border-radius: 50%;
+    width: 20px;
+    text-align: center;
+    height: 20px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+
+
+/* button animation */
+/* @keyframes slideUp {
+    0% {
+        transform: translateY(200%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.animate-slide-up {
+    animation: slideUp 0.3s ease-in-out forwards;
+} */

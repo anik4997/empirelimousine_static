@@ -1,0 +1,107 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    h2{
+        text-align: center;
+     }
+    .top_nav{
+        height: auto !important;
+        justify-content: center;
+    }
+    .nav_contact{
+        flex-direction: column !important;
+    }
+    .top_nav_contact.mx-3 {
+        margin-top: 5px;
+    }
+    .dropdown {
+        position: initial;
+        width: 100%;
+    }
+    .dropdown_sub {
+        position: initial;
+        width: 100%;
+    }
+    a.navbar-brand.text-white.text-xs {
+        margin-right: 0;
+    }
+    nav.navbar.navbar-expand-lg.bg-\[\#192026\].px-\[100px\] {
+        padding: 10px;
+    }
+    a.navbar-brand img{
+        width: 200px;
+    }
+    .col-md-3.text-xs.ml-20 {
+        margin: 0;
+    }
+    /* info section */
+    .info.bg-\[\#192026\].w-full.h-screen.flex.flex-row.justify-center.items-center {
+        height: auto;
+    }
+    img.h-screen.mt-28 {
+        margin: 0;
+        height: 300px;
+        width: 300px;
+    }
+    .banner_content {
+        text-align: center;
+    }
+    .center_sm{
+        justify-content: center;
+    }
+    .info{
+        padding: 10px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .top_nav.navbar.px-\[100px\].w-full.h-11.bg-\[\#192026\]{
+        padding: 0 10px;
+    }
+    .top_nav_contact.mx-3{
+        margin: 0 !important;
+    }
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .top_nav.navbar.px-\[100px\].w-full.h-11.bg-\[\#192026\]{
+        padding: 0 10px;
+    }
+    .banner {
+        height: 40vh;
+    }
+    .car_2_height_responsive {
+        height: 40vh !important;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    nav.navbar.navbar-expand-lg.bg-\[\#192026\].px-\[100px\]{
+        padding: 0 30px;
+    }
+    .banner {
+        height: 40vh;
+    }
+    .car_2_height_responsive {
+        height: 40vh !important;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    nav.navbar.navbar-expand-lg.bg-\[\#192026\].px-\[100px\]{
+        padding: 20px 100px;
+    }
+    .top_nav.navbar.px-\[100px\].w-full.h-11.bg-\[\#192026\]{
+        padding: 0px 100px;
+    }
+    .banner {
+        height: 90vh;
+    }
+    .car_2_height_responsive {
+        height: 100vh !important;
+    }
+}
